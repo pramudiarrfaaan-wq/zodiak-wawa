@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Ramalan Zodiak Wawa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>🔮 Ramalan Zodiak</h1>
+    <p>Website Pribadi Wawa</p>
+</div>
+
+<!-- MENU -->
+<div class="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#zodiak">Zodiak</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#maps">Lokasi</a></li>
+    </ul>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+    <h2>Selamat Datang ✨</h2>
+    <p>Pilih zodiak kamu untuk melihat ramalan hari ini.</p>
+
+    <!-- PILIH ZODIAK -->
+    <div id="zodiak">
+        <select id="pilihZodiak">
+            <option value="">-- Pilih Zodiak --</option>
+            <option value="aries">Aries</option>
+            <option value="taurus">Taurus</option>
+            <option value="gemini">Gemini</option>
+            <option value="cancer">Cancer</option>
+            <option value="leo">Leo</option>
+            <option value="virgo">Virgo</option>
+            <option value="libra">Libra</option>
+            <option value="scorpio">Scorpio</option>
+            <option value="sagitarius">Sagitarius</option>
+            <option value="capricorn">Capricorn</option>
+            <option value="aquarius">Aquarius</option>
+            <option value="pisces">Pisces</option>
+        </select>
+
+        <button onclick="tampilkanRamalan()">Lihat Ramalan</button>
+
+        <p id="hasil"></p>
+    </div>
+
+    <!-- VIDEO -->
+    <h3 id="video">🎥 Video Zodiak</h3>
+    <iframe width="300" height="200"
+        src="https://www.youtube.com/embed/6xKWiCMKKJg">
+    </iframe>
+
+    <!-- MAPS -->
+    <h3 id="maps">📍 Lokasi Saya</h3>
+    <iframe 
+        src="https://www.google.com/maps?q=Jakarta&output=embed"
+        width="300" height="200">
+    </iframe>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>Copyright 2026 - Wawa</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+  </html>
